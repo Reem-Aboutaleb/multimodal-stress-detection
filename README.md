@@ -95,6 +95,23 @@ These enhancements improve the model's understanding of autonomic stress respons
 ### 🔽 Feature Importance (Advanced)
 ![Feature Importance](feature_importance_advanced.png)
 
+
+---
+
+## 🧪 Model Comparison
+
+We tested multiple classifiers on the extracted advanced features:
+
+| Model                | Accuracy | F1 Score | Training Time (s) |
+|----------------------|----------|----------|--------------------|
+| Random Forest        | 46.6%    | 0.426    | 0.44               |
+| K-Nearest Neighbors  | 46.6%    | 0.406    | 0.02               |
+| Logistic Regression  | 33.3%    | 0.237    | 0.09               |
+| SVM (RBF Kernel)     | 33.3%    | 0.243    | 0.01               |
+
+> 🔍 **Random Forest** showed the best balance of accuracy and interpretability on the current data.
+
+These scores are expected to improve when applied to a real dataset like **WESAD**, which we explore next.
 ---
 
 ## 📈 How to Run This Project
