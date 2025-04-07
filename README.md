@@ -3,6 +3,25 @@
 This project is a complete end-to-end pipeline for detecting human stress levels using physiological signals — specifically, **PPG (Photoplethysmography)** and **EDA (Electrodermal Activity)**. It covers everything from raw signal inspection to feature extraction and machine learning model training.
 
 ---
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Colab%20%7C%20Jupyter-yellow)
+![Status](https://img.shields.io/badge/Project%20Status-Complete-blueviolet)
+
+---
+
+## 📚 Table of Contents
+
+- [Overview](#-multimodal-stress-detection-using-ppg-and-eda)
+- [Project Structure](#-project-structure)
+- [Dataset](#-dataset)
+- [Technologies Used](#-technologies-used)
+- [Features Extracted](#-features-extracted)
+- [Model](#-model)
+- [Results (Advanced Features)](#-results-advanced-features)
+- [How to Run This Project](#-how-to-run-this-project)
+- [Author](#-author)
+
 
 ## 📂 Project Structure
 
