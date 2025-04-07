@@ -6,14 +6,27 @@ This project is a complete end-to-end pipeline for detecting human stress levels
 
 ## 📂 Project Structure
 
+```bash
+multimodal-stress-detection/
+├── 01_Load_Data.ipynb
+├── 02_Preprocess_Signals_PPG_EDA.ipynb
+├── 03_Feature_Extraction.ipynb
+├── 04_Model_Training.ipynb
+├── confusion_matrix.png
+├── signal_preview.png
+├── extracted_features.csv
+├── sample_signals.csv
+└── README.md
+```
+
 ---
 
 ## 🧪 Dataset
 
 We use a **simulated dataset** that mimics real biosignals (inspired by the WESAD dataset).  
 Each row contains:
-- `ppg`: Raw PPG signal
-- `eda`: Raw EDA signal
+- `ppg`: Raw PPG signal  
+- `eda`: Raw EDA signal  
 - `label`: Baseline (0), Stress (1), Amusement (2)
 
 ---
@@ -30,14 +43,14 @@ Each row contains:
 ## 💡 Features Extracted
 
 **From PPG:**
-- IBI Mean
-- SDNN (Standard Deviation of NN intervals)
+- IBI Mean  
+- SDNN (Standard Deviation of NN intervals)  
 - RMSSD (Root Mean Square of Successive Differences)
 
 **From EDA:**
-- Mean
-- Standard Deviation
-- Max
+- Mean  
+- Standard Deviation  
+- Max  
 - Min
 
 ---
@@ -52,15 +65,15 @@ Evaluation is done using a **confusion matrix** and **classification report**.
 ## 📊 Results
 
 The model shows high accuracy in classifying:
-- **Baseline (0)**
-- **Stress (1)**
+- **Baseline (0)**  
+- **Stress (1)**  
 - **Amused (2)**
 
 ### 🔽 Confusion Matrix  
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ### 🔽 Raw Signal Preview  
-![Raw PPG & EDA](images/signal_preview.png)
+![Raw PPG & EDA](signal_preview.png)
 
 ---
 
@@ -71,7 +84,7 @@ The model shows high accuracy in classifying:
    - `02_Preprocess_Signals_PPG_EDA.ipynb`
    - `03_Feature_Extraction.ipynb`
    - `04_Model_Training.ipynb`
-2. Upload the CSV files when prompted
+2. Upload the CSV files when prompted  
 3. Run each cell in order inside each notebook
 
 ---
