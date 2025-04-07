@@ -61,19 +61,20 @@ We train a **Random Forest Classifier** to predict the stress state from extract
 Evaluation is done using a **confusion matrix** and **classification report**.
 
 ---
+## 📊 Results (Advanced Features)
 
-## 📊 Results
+The model was retrained using **advanced features** extracted from PPG and EDA signals, including:
 
-The model shows high accuracy in classifying:
-- **Baseline (0)**  
-- **Stress (1)**  
-- **Amused (2)**
+- 💓 `pNN50`, `HRV_LF`, `HRV_HF`, `LF/HF Ratio`  
+- 💧 `SCR peak count`, `mean SCR amplitude`, and statistical EDA metrics
 
-### 🔽 Confusion Matrix  
-![Confusion Matrix](confusion_matrix.png)
+These enhancements improve the model's understanding of autonomic stress response and offer better feature interpretation.
 
-### 🔽 Raw Signal Preview  
-![Raw PPG & EDA](signal_preview.png)
+### 🔽 Confusion Matrix (Advanced)
+![Confusion Matrix](confusion_matrix_advanced.png)
+
+### 🔽 Feature Importance (Advanced)
+![Feature Importance](feature_importance_advanced.png)
 
 ---
 
