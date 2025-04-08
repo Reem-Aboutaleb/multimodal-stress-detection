@@ -63,7 +63,8 @@ Each row contains:
 
 ### 📉 Sample Biosignals
 
-<img src="signal_preview.png" alt="Raw Signals Preview" width="600"/>
+<img src="images/signal_preview.png" alt="Raw Signals Preview" width="600"/>
+
 
 ---
 
@@ -108,10 +109,10 @@ These enhancements improve the model's understanding of autonomic stress respons
 | SVM (RBF Kernel)     | 33.3%    | 0.243    | 0.01               |
 
 ### 🔽 Confusion Matrix (Advanced)
-![Confusion Matrix](confusion_matrix_advanced.png)
+![Confusion Matrix](images/confusion_matrix_advanced.png)
 
 ### 🔽 Feature Importance (Advanced)
-![Confusion Matrix](images/confusion_matrix_advanced.png)
+![Feature Importance](images/feature_importance_advanced.png)
 
 
 These scores are expected to improve when applied to a real dataset like **WESAD**, which we explore next.
