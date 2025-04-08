@@ -111,7 +111,8 @@ These enhancements improve the model's understanding of autonomic stress respons
 ![Confusion Matrix](confusion_matrix_advanced.png)
 
 ### 🔽 Feature Importance (Advanced)
-![Feature Importance](feature_importance_advanced.png)
+![Confusion Matrix](images/confusion_matrix_advanced.png)
+
 
 These scores are expected to improve when applied to a real dataset like **WESAD**, which we explore next.
 
