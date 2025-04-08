@@ -3,6 +3,7 @@
 This project is a complete end-to-end pipeline for detecting human stress levels using physiological signals — specifically, **PPG (Photoplethysmography)** and **EDA (Electrodermal Activity)**. It covers everything from raw signal inspection to feature extraction and machine learning model training.
 
 ---
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Colab%20%7C%20Jupyter-yellow)
@@ -58,6 +59,10 @@ Each row contains:
 - Google Colab / Jupyter Notebooks
 
 ---
+### 📉 Sample Biosignals
+
+<img src="signal_preview.png" alt="Raw Signals Preview" width="600"/>
+
 
 ## 💡 Features Extracted
 
