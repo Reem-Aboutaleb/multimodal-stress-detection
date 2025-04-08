@@ -23,6 +23,7 @@ This project is a complete end-to-end pipeline for detecting human stress levels
 - [How to Run This Project](#-how-to-run-this-project)
 - [Author](#-author)
 
+---
 
 ## 📂 Project Structure
 
@@ -59,10 +60,12 @@ Each row contains:
 - Google Colab / Jupyter Notebooks
 
 ---
+
 ### 📉 Sample Biosignals
 
 <img src="signal_preview.png" alt="Raw Signals Preview" width="600"/>
 
+---
 
 ## 💡 Features Extracted
 
@@ -85,6 +88,7 @@ We train a **Random Forest Classifier** to predict the stress state from extract
 Evaluation is done using a **confusion matrix** and **classification report**.
 
 ---
+
 ## 📊 Results (Advanced Features)
 
 The model was retrained using **advanced features** extracted from PPG and EDA signals, including:
@@ -94,18 +98,7 @@ The model was retrained using **advanced features** extracted from PPG and EDA s
 
 These enhancements improve the model's understanding of autonomic stress response and offer better feature interpretation.
 
-### 🔽 Confusion Matrix (Advanced)
-![Confusion Matrix](confusion_matrix_advanced.png)
-
-### 🔽 Feature Importance (Advanced)
-![Feature Importance](feature_importance_advanced.png)
-
-
----
-
-## 🧪 Model Comparison
-
-We tested multiple classifiers on the extracted advanced features:
+### 📋 Performance Metrics Summary
 
 | Model                | Accuracy | F1 Score | Training Time (s) |
 |----------------------|----------|----------|--------------------|
@@ -114,9 +107,14 @@ We tested multiple classifiers on the extracted advanced features:
 | Logistic Regression  | 33.3%    | 0.237    | 0.09               |
 | SVM (RBF Kernel)     | 33.3%    | 0.243    | 0.01               |
 
-> 🔍 **Random Forest** showed the best balance of accuracy and interpretability on the current data.
+### 🔽 Confusion Matrix (Advanced)
+![Confusion Matrix](confusion_matrix_advanced.png)
+
+### 🔽 Feature Importance (Advanced)
+![Feature Importance](feature_importance_advanced.png)
 
 These scores are expected to improve when applied to a real dataset like **WESAD**, which we explore next.
+
 ---
 
 ## 📈 How to Run This Project
@@ -136,4 +134,3 @@ These scores are expected to improve when applied to a real dataset like **WESAD
 Created by **Reem Aboutaleb** — Biomedical Engineering M.S. Candidate at NYU Tandon School of Engineering 💡  
 Specializing in biomedical data analysis, machine learning, and real-time health signal processing.
 
----
