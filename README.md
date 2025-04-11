@@ -2,6 +2,8 @@
 
 This project is a complete end-to-end pipeline for detecting human stress levels using physiological signals — specifically, **PPG (Photoplethysmography)** and **EDA (Electrodermal Activity)**. It covers everything from raw signal inspection to feature extraction and machine learning model training.
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reem-Aboutaleb/multimodal-stress-detection/blob/main/01_Load_Data.ipynb)
+
 ---
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
@@ -27,6 +29,7 @@ This project is a complete end-to-end pipeline for detecting human stress levels
 - [How to Run This Project](#-how-to-run-this-project)
 - [Ready for Real-World Use](#-ready-for-real-world-use)
 - [Future Work](#-future-work)
+- [Key Takeaways](#-key-takeaways)
 - [Author](#-author)
 
 ---
@@ -39,8 +42,10 @@ multimodal-stress-detection/
 ├── 02_Preprocess_Signals_PPG_EDA.ipynb
 ├── 03_Feature_Extraction.ipynb
 ├── 04_Model_Training.ipynb
-├── confusion_matrix.png
-├── signal_preview.png
+├── images/
+│   ├── signal_preview.png
+│   ├── confusion_matrix_advanced.png
+│   └── feature_importance_advanced.png
 ├── extracted_features.csv
 ├── sample_signals.csv
 └── README.md
@@ -138,6 +143,16 @@ These enhancements improve the model's understanding of autonomic stress respons
 
 ---
 
+## 🎥 Demo (Optional)
+
+*You can include a short screen recording or GIF of the pipeline, visualizations, or notebook running here.*
+
+```markdown
+![Demo Placeholder](images/demo.gif)
+```
+
+---
+
 ## 📦 Ready for Real-World Use
 
 This project is designed for scalability and real-life clinical applications. It can be extended to:
@@ -154,6 +169,15 @@ This project is designed for scalability and real-life clinical applications. It
 - Add emotion classification beyond stress (e.g., relaxation, engagement)  
 - Test with open-source datasets like WESAD, DEAP, or PhysioNet  
 - Deploy as a mini web app using Streamlit or Flask
+
+---
+
+## 🧠 Key Takeaways
+
+- Practiced biomedical signal processing using Python  
+- Learned HRV and EDA feature engineering for stress modeling  
+- Compared multiple classification models and visualized results  
+- Improved my end-to-end project structuring for health tech
 
 ---
 
