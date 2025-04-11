@@ -143,13 +143,11 @@ These enhancements improve the model's understanding of autonomic stress respons
 
 ---
 
-## 🎥 Demo (Optional)
+## 🎥 Demo
 
-*You can include a short screen recording or GIF of the pipeline, visualizations, or notebook running here.*
+Here’s a quick preview of the project in action:
 
-```markdown
-![Demo Placeholder](images/demo.gif)
-```
+<img src="images/stress_demo.gif" alt="Stress Detection Demo" width="600"/>
 
 ---
 
