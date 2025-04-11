@@ -11,6 +11,10 @@ This project is a complete end-to-end pipeline for detecting human stress levels
 
 ---
 
+> 🧠 **Keywords**: Stress Detection, PPG, EDA, HRV, Biomedical Signal Processing, Python, Machine Learning, NeuroKit2, Feature Extraction, Streamlit-ready
+
+---
+
 ## 📚 Table of Contents
 
 - [Overview](#-multimodal-stress-detection-using-ppg-and-eda)
@@ -21,6 +25,8 @@ This project is a complete end-to-end pipeline for detecting human stress levels
 - [Model](#-model)
 - [Results (Advanced Features)](#-results-advanced-features)
 - [How to Run This Project](#-how-to-run-this-project)
+- [Ready for Real-World Use](#-ready-for-real-world-use)
+- [Future Work](#-future-work)
 - [Author](#-author)
 
 ---
@@ -44,11 +50,14 @@ multimodal-stress-detection/
 
 ## 🧪 Dataset
 
-We use a **simulated dataset** that mimics real biosignals (inspired by the WESAD dataset).  
-Each row contains:
-- `ppg`: Raw PPG signal  
-- `eda`: Raw EDA signal  
-- `label`: Baseline (0), Stress (1), Amusement (2)
+We use a **simulated biosignal dataset** that mimics the structure of real-world data from the WESAD dataset.  
+It includes three labeled conditions for stress classification:
+
+- `0`: Baseline  
+- `1`: Stress  
+- `2`: Amusement
+
+This project architecture is built to scale seamlessly with real biosignal datasets like WESAD, UBFC, or data from wearable devices.
 
 ---
 
@@ -64,7 +73,6 @@ Each row contains:
 ### 📉 Sample Biosignals
 
 <img src="images/signal_preview.png" alt="Raw Signals Preview" width="600"/>
-
 
 ---
 
@@ -114,8 +122,7 @@ These enhancements improve the model's understanding of autonomic stress respons
 ### 🔽 Feature Importance (Advanced)
 ![Feature Importance](images/feature_importance_advanced.png)
 
-
-These scores are expected to improve when applied to a real dataset like **WESAD**, which we explore next.
+> 💬 These scores are expected to improve significantly with real-time data or clinical datasets like **WESAD**.
 
 ---
 
@@ -131,8 +138,31 @@ These scores are expected to improve when applied to a real dataset like **WESAD
 
 ---
 
+## 📦 Ready for Real-World Use
+
+This project is designed for scalability and real-life clinical applications. It can be extended to:
+
+- Work with real-world datasets from wearables like Empatica E4  
+- Integrate into a **Streamlit** dashboard for real-time visualizations  
+- Serve as a stress monitoring prototype for healthcare R&D
+
+---
+
+## 🔭 Future Work
+
+- Integrate real-time data ingestion from wearable biosensors  
+- Add emotion classification beyond stress (e.g., relaxation, engagement)  
+- Test with open-source datasets like WESAD, DEAP, or PhysioNet  
+- Deploy as a mini web app using Streamlit or Flask
+
+---
+
 ## 💖 Author
 
 Created by **Reem Aboutaleb** — Biomedical Engineering M.S. Candidate at NYU Tandon School of Engineering 💡  
-Specializing in biomedical data analysis, machine learning, and real-time health signal processing.
+Specializing in biomedical signal processing, machine learning, and clinical technology.
+
+📧 Contact: Reemwalid222@gmail.com  
+🔗 [GitHub Portfolio](https://github.com/Reem-Aboutaleb) | [LinkedIn](https://www.linkedin.com/in/reem-aboutaleb)
+
 
